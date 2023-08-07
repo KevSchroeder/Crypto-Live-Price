@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  width: 90%;
+  max-width: 450px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  
+}
+
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #1e00fe, #770e16);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-wrap: nowrap;
+}
+
+.container .coin-price{
+  display: flex;
+  max-width: max-content;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc;
+  margin: 7px;
+  
+}
+
+.container,.coin-price.logo{
+  width: 70 px;
+  margin-right: 10px;
+}
+
+.container,.coin-price.logo{
+  width: 70 px;
+  margin-right: 10px;
+}
+
+.container .coin-price div{
+  display: block;
+}
+
+.container .coin-price div h1{
+  font-size: 20px;
+}
